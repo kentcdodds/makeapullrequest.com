@@ -1,0 +1,24 @@
+{
+  "name": "makeapullrequest.com",
+  "version": "1.0.0",
+  "description": "This is the code for the Make a Pull Request website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge . makeapullrequest.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentcdodds/makeapullrequest.com.git"
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentcdodds/makeapullrequest.com/issues"
+  },
+  "homepage": "https://github.com/kentcdodds/makeapullrequest.com#readme",
+  "devDependencies": {
+    "surge": "0.17.7"
+  }
+}
